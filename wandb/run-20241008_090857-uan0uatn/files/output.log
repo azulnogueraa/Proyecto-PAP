@@ -1,0 +1,4 @@
+Found 7378 images belonging to 6 classes.
+Found 1847 images belonging to 6 classes.
+Found 2309 images belonging to 6 classes.
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

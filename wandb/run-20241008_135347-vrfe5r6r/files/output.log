@@ -1,0 +1,18 @@
+Found 4800 images belonging to 6 classes.
+Found 1200 images belonging to 6 classes.
+Found 1800 images belonging to 6 classes.
+[34m[1mwandb[0m: [33mWARNING[0m WandbCallback is deprecated and will be removed in a future release. Please use the WandbMetricsLogger, WandbModelCheckpoint, and WandbEvalCallback callbacks instead. See https://docs.wandb.ai/guides/integrations/keras for more information.
+100%|██████████| 5/5 [36:31<00:00, 438.23s/epoch, loss=1.71, accuracy=0.312, val_loss=181, val_accuracy=0.167, lr=0.0005]    
+                                                                               
+
+Epoch 1: val_loss improved from inf to 18566.36328, saving model to checkpoints/best_weights.h5
+
+Epoch 2: val_loss improved from 18566.36328 to 1071.15991, saving model to checkpoints/best_weights.h5
+
+Epoch 3: val_loss improved from 1071.15991 to 541.36969, saving model to checkpoints/best_weights.h5
+
+Epoch 4: val_loss improved from 541.36969 to 279.70773, saving model to checkpoints/best_weights.h5
+
+Epoch 5: val_loss improved from 279.70773 to 181.34904, saving model to checkpoints/best_weights.h5
+57/57 [==============================] - 48s 842ms/step - loss: 181.1545 - accuracy: 0.1667
+Precisión en el conjunto de prueba: 0.1667

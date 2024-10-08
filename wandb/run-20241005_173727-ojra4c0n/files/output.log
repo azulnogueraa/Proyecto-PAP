@@ -1,0 +1,64 @@
+Found 14336 images belonging to 6 classes.
+Found 1847 images belonging to 6 classes.
+Found 2309 images belonging to 6 classes.
+Pesos de clase: {0: 1.1946666666666668, 1: 1.1946666666666668, 2: 1.1946666666666668, 3: 1.1946666666666668, 4: 0.5507914553557707, 5: 1.1958625291958624}
+Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5
+94765736/94765736 [==============================] - 4s 0us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+[34m[1mwandb[0m: [33mWARNING[0m WandbCallback is deprecated and will be removed in a future release. Please use the WandbMetricsLogger, WandbModelCheckpoint, and WandbEvalCallback callbacks instead. See https://docs.wandb.ai/guides/integrations/keras for more information.
+[34m[1mwandb[0m: [33mWARNING[0m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+Epoch 1/20
+448/448 [==============================] - ETA: 0s - loss: 1.6600 - accuracy: 0.3560Epoch 1/20
+448/448 [==============================] - ETA: 0s - loss: 1.5788 - accuracy: 0.4280INFO:tensorflow:Assets written to: checkpoints/best_model_ResNet50/assets
+INFO:tensorflow:Assets written to: checkpoints/best_model_ResNet50/assets
+/Users/achula/miniconda3/envs/td8/lib/python3.8/site-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+INFO:tensorflow:Assets written to: /Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241005_173727-ojra4c0n/files/model-best/assets
+INFO:tensorflow:Assets written to: /Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241005_173727-ojra4c0n/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241005_173727-ojra4c0n/files/model-best)... Done. 0.5s
+448/448 [==============================] - 480s 1s/step - loss: 1.5788 - accuracy: 0.4280 - val_loss: 1.4484 - val_accuracy: 0.5712
+Epoch 2/20
+448/448 [==============================] - ETA: 0s - loss: 1.5630 - accuracy: 0.4353INFO:tensorflow:Assets written to: checkpoints/best_model_ResNet50/assets
+INFO:tensorflow:Assets written to: checkpoints/best_model_ResNet50/assets
+/Users/achula/miniconda3/envs/td8/lib/python3.8/site-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+INFO:tensorflow:Assets written to: /Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241005_173727-ojra4c0n/files/model-best/assets
+INFO:tensorflow:Assets written to: /Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241005_173727-ojra4c0n/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241005_173727-ojra4c0n/files/model-best)... Done. 0.3s
+448/448 [==============================] - 509s 1s/step - loss: 1.5630 - accuracy: 0.4353 - val_loss: 1.4092 - val_accuracy: 0.5891
+Epoch 3/20
+448/448 [==============================] - 1490s 3s/step - loss: 1.5576 - accuracy: 0.4392 - val_loss: 1.4096 - val_accuracy: 0.5560
+Epoch 4/20
+448/448 [==============================] - 778s 2s/step - loss: 1.5467 - accuracy: 0.4463 - val_loss: 1.4243 - val_accuracy: 0.5604
+Epoch 5/20
+448/448 [==============================] - 828s 2s/step - loss: 1.5375 - accuracy: 0.4528 - val_loss: 1.4836 - val_accuracy: 0.5593
+Epoch 6/20
+448/448 [==============================] - 823s 2s/step - loss: 1.5359 - accuracy: 0.4534 - val_loss: 1.4356 - val_accuracy: 0.5874
+Epoch 7/20
+448/448 [==============================] - ETA: 0s - loss: 1.5385 - accuracy: 0.4559INFO:tensorflow:Assets written to: checkpoints/best_model_ResNet50/assets
+INFO:tensorflow:Assets written to: checkpoints/best_model_ResNet50/assets
+/Users/achula/miniconda3/envs/td8/lib/python3.8/site-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+INFO:tensorflow:Assets written to: /Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241005_173727-ojra4c0n/files/model-best/assets
+INFO:tensorflow:Assets written to: /Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241005_173727-ojra4c0n/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241005_173727-ojra4c0n/files/model-best)... Done. 0.5s
+448/448 [==============================] - 862s 2s/step - loss: 1.5385 - accuracy: 0.4559 - val_loss: 1.3721 - val_accuracy: 0.5734
+Epoch 8/20
+448/448 [==============================] - 2475s 6s/step - loss: 1.5313 - accuracy: 0.4604 - val_loss: 1.4296 - val_accuracy: 0.5566
+Epoch 9/20
+448/448 [==============================] - 11442s 26s/step - loss: 1.5222 - accuracy: 0.4646 - val_loss: 1.4053 - val_accuracy: 0.5874
+Epoch 10/20
+448/448 [==============================] - ETA: 0s - loss: 1.5210 - accuracy: 0.4616INFO:tensorflow:Assets written to: checkpoints/best_model_ResNet50/assets
+INFO:tensorflow:Assets written to: checkpoints/best_model_ResNet50/assets
+/Users/achula/miniconda3/envs/td8/lib/python3.8/site-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+INFO:tensorflow:Assets written to: /Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241005_173727-ojra4c0n/files/model-best/assets
+INFO:tensorflow:Assets written to: /Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241005_173727-ojra4c0n/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241005_173727-ojra4c0n/files/model-best)... Done. 0.4s
+448/448 [==============================] - 487s 1s/step - loss: 1.5210 - accuracy: 0.4616 - val_loss: 1.3581 - val_accuracy: 0.5864
+Epoch 11/20
+448/448 [==============================] - 28339s 63s/step - loss: 1.5127 - accuracy: 0.4727 - val_loss: 1.4090 - val_accuracy: 0.5604
+Epoch 12/20
+448/448 [==============================] - ETA: 0s - loss: 1.5022 - accuracy: 0.4728  
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

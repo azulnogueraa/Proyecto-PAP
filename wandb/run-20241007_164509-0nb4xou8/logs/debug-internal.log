@@ -1,0 +1,10 @@
+{"time":"2024-10-07T16:45:09.639995-03:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-07T16:45:09.640044-03:00","level":"INFO","msg":"created symlink","path":"/Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241007_164509-0nb4xou8/logs/debug-core.log"}
+{"time":"2024-10-07T16:45:09.640285-03:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-07T16:45:09.650969-03:00","level":"INFO","msg":"created new stream","id":"0nb4xou8"}
+{"time":"2024-10-07T16:45:09.65104-03:00","level":"INFO","msg":"stream: started","id":"0nb4xou8"}
+{"time":"2024-10-07T16:45:09.651072-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"0nb4xou8"}}
+{"time":"2024-10-07T16:45:09.651077-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"0nb4xou8"}}
+{"time":"2024-10-07T16:45:09.651146-03:00","level":"INFO","msg":"sender: started","stream_id":{"value":"0nb4xou8"}}
+{"time":"2024-10-07T16:45:10.167024-03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-10-07T16:45:10.168061-03:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 404 Not Found: {\"errors\":[{\"message\":\"entity tu_usuario not found during upsertBucket\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}

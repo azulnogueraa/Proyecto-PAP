@@ -1,0 +1,29 @@
+Found 7378 images belonging to 6 classes.
+Found 1847 images belonging to 6 classes.
+Found 2309 images belonging to 6 classes.
+/Users/achula/miniconda3/envs/td8/lib/python3.8/site-packages/wandb/sdk/wandb_run.py:2388: UserWarning: Run (02wpzwbt) is finished. The call to `_console_raw_callback` will be ignored. Please make sure that you are using an active run.
+  lambda data: self._console_raw_callback("stderr", data),
+100%|██████████| 10/10 [24:52<00:00, 149.29s/epoch, loss=1.16, accuracy=0.617, val_loss=1.24, val_accuracy=0.588]
+                                                                               
+
+Epoch 1: val_loss improved from inf to 1.69581, saving model to checkpoints/best_weights_efficientnet_finetuned.h5
+
+Epoch 2: val_loss improved from 1.69581 to 1.37667, saving model to checkpoints/best_weights_efficientnet_finetuned.h5
+
+Epoch 3: val_loss improved from 1.37667 to 1.22399, saving model to checkpoints/best_weights_efficientnet_finetuned.h5
+
+Epoch 4: val_loss improved from 1.22399 to 1.20451, saving model to checkpoints/best_weights_efficientnet_finetuned.h5
+
+Epoch 5: val_loss improved from 1.20451 to 1.20448, saving model to checkpoints/best_weights_efficientnet_finetuned.h5
+
+Epoch 6: val_loss did not improve from 1.20448
+
+Epoch 7: val_loss did not improve from 1.20448
+
+Epoch 8: val_loss did not improve from 1.20448
+
+Epoch 9: val_loss improved from 1.20448 to 1.14375, saving model to checkpoints/best_weights_efficientnet_finetuned.h5
+
+Epoch 10: val_loss did not improve from 1.14375
+73/73 [==============================] - 26s 353ms/step - loss: 1.2396 - accuracy: 0.5881
+Precisión en el conjunto de prueba: 0.5881

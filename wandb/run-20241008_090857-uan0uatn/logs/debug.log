@@ -1,0 +1,63 @@
+2024-10-08 09:08:57,757 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-08 09:08:57,757 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Configure stats pid to 2466
+2024-10-08 09:08:57,757 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Loading settings from /Users/achula/.config/wandb/settings
+2024-10-08 09:08:57,757 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Loading settings from /Users/achula/achula/td8/Proyecto-PAP/wandb/settings
+2024-10-08 09:08:57,757 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-08 09:08:57,757 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-08 09:08:57,757 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-08 09:08:57,757 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-08 09:08:57,757 INFO    MainThread:2466 [wandb_init.py:_log_setup():532] Logging user logs to /Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241008_090857-uan0uatn/logs/debug.log
+2024-10-08 09:08:57,757 INFO    MainThread:2466 [wandb_init.py:_log_setup():533] Logging internal logs to /Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241008_090857-uan0uatn/logs/debug-internal.log
+2024-10-08 09:08:57,757 INFO    MainThread:2466 [wandb_init.py:_jupyter_setup():478] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x34ed72b80>
+2024-10-08 09:08:57,757 INFO    MainThread:2466 [wandb_init.py:init():617] calling init triggers
+2024-10-08 09:08:57,757 INFO    MainThread:2466 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {}
+2024-10-08 09:08:57,757 INFO    MainThread:2466 [wandb_init.py:init():667] starting backend
+2024-10-08 09:08:57,757 INFO    MainThread:2466 [wandb_init.py:init():671] sending inform_init request
+2024-10-08 09:08:57,791 INFO    MainThread:2466 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-10-08 09:08:57,797 INFO    MainThread:2466 [wandb_init.py:init():684] backend started and connected
+2024-10-08 09:08:57,856 INFO    MainThread:2466 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-08 09:08:57,858 INFO    MainThread:2466 [wandb_init.py:init():779] updated telemetry
+2024-10-08 09:08:57,920 INFO    MainThread:2466 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-08 09:08:58,217 INFO    MainThread:2466 [wandb_init.py:init():863] starting run threads in backend
+2024-10-08 09:08:58,367 INFO    MainThread:2466 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-08 09:08:58,367 INFO    MainThread:2466 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-08 09:08:58,367 INFO    MainThread:2466 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-08 09:08:58,367 INFO    MainThread:2466 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-08 09:08:58,368 INFO    MainThread:2466 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-08 09:08:58,815 INFO    MainThread:2466 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-08 09:08:58,815 INFO    MainThread:2466 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-08 09:08:58,824 INFO    MainThread:2466 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-08 09:09:00,904 INFO    MainThread:2466 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-08 09:09:00,904 INFO    MainThread:2466 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-08 09:09:31,650 INFO    MainThread:2466 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-08 09:09:31,653 INFO    MainThread:2466 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-08 09:09:31,653 INFO    MainThread:2466 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-08 09:10:46,021 INFO    MainThread:2466 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-08 09:10:46,023 INFO    MainThread:2466 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-08 09:10:46,024 INFO    MainThread:2466 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-08 09:10:49,423 INFO    MainThread:2466 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-08 09:10:49,434 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-08 09:10:49,434 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Configure stats pid to 2466
+2024-10-08 09:10:49,434 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Loading settings from /Users/achula/.config/wandb/settings
+2024-10-08 09:10:49,434 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Loading settings from /Users/achula/achula/td8/Proyecto-PAP/wandb/settings
+2024-10-08 09:10:49,434 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-08 09:10:49,434 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-08 09:10:49,434 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-08 09:10:49,434 INFO    MainThread:2466 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-08 09:10:49,434 INFO    MainThread:2466 [wandb_init.py:_log_setup():532] Logging user logs to /Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241008_091049-u4egse04/logs/debug.log
+2024-10-08 09:10:49,434 INFO    MainThread:2466 [wandb_init.py:_log_setup():533] Logging internal logs to /Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241008_091049-u4egse04/logs/debug-internal.log
+2024-10-08 09:10:49,435 INFO    MainThread:2466 [wandb_init.py:init():617] calling init triggers
+2024-10-08 09:10:49,435 INFO    MainThread:2466 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {}
+2024-10-08 09:10:49,435 INFO    MainThread:2466 [wandb_init.py:init():642] re-initializing run, found existing run on stack: uan0uatn
+2024-10-08 09:10:49,436 INFO    MainThread:2466 [wandb_run.py:_finish():2164] finishing run tp3-td6/clasificacion-celulas/uan0uatn
+2024-10-08 09:10:49,438 ERROR   MainThread:2466 [jupyter.py:save_history():451] Run pip install nbformat to save notebook history
+2024-10-08 09:10:49,438 INFO    MainThread:2466 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-08 09:10:49,438 INFO    MainThread:2466 [wandb_init.py:_jupyter_teardown():460] cleaning up jupyter logic
+2024-10-08 09:10:49,438 INFO    MainThread:2466 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-08 09:10:49,438 INFO    MainThread:2466 [wandb_run.py:_restore():2410] restore
+2024-10-08 09:10:49,438 INFO    MainThread:2466 [wandb_run.py:_restore():2416] restore done
+2024-10-08 09:10:51,808 INFO    MainThread:2466 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-08 09:10:51,808 INFO    MainThread:2466 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-08 09:10:51,811 INFO    MainThread:2466 [wandb_run.py:_footer_sync_info():4008] logging synced files

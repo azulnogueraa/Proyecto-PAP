@@ -1,0 +1,26 @@
+{"time":"2024-10-08T08:33:03.210349-03:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-08T08:33:03.210386-03:00","level":"INFO","msg":"created symlink","path":"/Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241008_083303-07c4r6sw/logs/debug-core.log"}
+{"time":"2024-10-08T08:33:03.21061-03:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-08T08:33:03.21894-03:00","level":"INFO","msg":"created new stream","id":"07c4r6sw"}
+{"time":"2024-10-08T08:33:03.21899-03:00","level":"INFO","msg":"stream: started","id":"07c4r6sw"}
+{"time":"2024-10-08T08:33:03.218991-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"07c4r6sw"}}
+{"time":"2024-10-08T08:33:03.21903-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"07c4r6sw"}}
+{"time":"2024-10-08T08:33:03.219021-03:00","level":"INFO","msg":"sender: started","stream_id":{"value":"07c4r6sw"}}
+{"time":"2024-10-08T08:33:03.617049-03:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-08T08:33:03.617843-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-08T08:33:04.281592-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T08:33:04.28986-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-08T08:33:06.155937-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T08:33:06.162004-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-08T08:33:06.166818-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T08:33:06.171994-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-08T08:59:27.467939-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T08:59:27.474331-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-08T08:59:54.087978-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-08T08:59:54.117958-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-08T08:59:55.426321-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-08T08:59:56.698641-03:00","level":"INFO","msg":"stream: closing","id":"07c4r6sw"}
+{"time":"2024-10-08T08:59:56.698709-03:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"07c4r6sw"}}
+{"time":"2024-10-08T08:59:56.698751-03:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"07c4r6sw"}}
+{"time":"2024-10-08T08:59:56.698734-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"07c4r6sw"}}
+{"time":"2024-10-08T08:59:56.698911-03:00","level":"INFO","msg":"stream: closed","id":"07c4r6sw"}
