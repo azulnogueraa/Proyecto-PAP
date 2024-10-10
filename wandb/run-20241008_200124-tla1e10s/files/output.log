@@ -1,0 +1,89 @@
+Found 7378 images belonging to 6 classes.
+Found 1847 images belonging to 6 classes.
+Found 2309 images belonging to 6 classes.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+Epoch 1/20
+231/231 [==============================] - ETA: 0s - loss: 1.1994 - accuracy: 0.6011
+Epoch 1: val_loss improved from inf to 1.04680, saving model to best_model.h5
+/Users/achula/miniconda3/envs/td8/lib/python3.8/site-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+231/231 [==============================] - 205s 864ms/step - loss: 1.1994 - accuracy: 0.6011 - val_loss: 1.0468 - val_accuracy: 0.6470 - lr: 1.0000e-04
+Epoch 2/20
+231/231 [==============================] - ETA: 0s - loss: 1.0869 - accuracy: 0.6332
+Epoch 2: val_loss improved from 1.04680 to 1.00339, saving model to best_model.h5
+231/231 [==============================] - 205s 887ms/step - loss: 1.0869 - accuracy: 0.6332 - val_loss: 1.0034 - val_accuracy: 0.6600 - lr: 1.0000e-04
+Epoch 3/20
+231/231 [==============================] - ETA: 0s - loss: 1.0161 - accuracy: 0.6526
+Epoch 3: val_loss improved from 1.00339 to 0.93192, saving model to best_model.h5
+231/231 [==============================] - 234s 1s/step - loss: 1.0161 - accuracy: 0.6526 - val_loss: 0.9319 - val_accuracy: 0.6768 - lr: 1.0000e-04
+Epoch 4/20
+231/231 [==============================] - ETA: 0s - loss: 0.9738 - accuracy: 0.6664
+Epoch 4: val_loss improved from 0.93192 to 0.88284, saving model to best_model.h5
+231/231 [==============================] - 241s 1s/step - loss: 0.9738 - accuracy: 0.6664 - val_loss: 0.8828 - val_accuracy: 0.6871 - lr: 1.0000e-04
+Epoch 5/20
+231/231 [==============================] - ETA: 0s - loss: 0.9406 - accuracy: 0.6757
+Epoch 5: val_loss improved from 0.88284 to 0.87406, saving model to best_model.h5
+231/231 [==============================] - 211s 910ms/step - loss: 0.9406 - accuracy: 0.6757 - val_loss: 0.8741 - val_accuracy: 0.6887 - lr: 1.0000e-04
+Epoch 6/20
+231/231 [==============================] - ETA: 0s - loss: 0.9068 - accuracy: 0.6841
+Epoch 6: val_loss improved from 0.87406 to 0.83596, saving model to best_model.h5
+231/231 [==============================] - 197s 853ms/step - loss: 0.9068 - accuracy: 0.6841 - val_loss: 0.8360 - val_accuracy: 0.7038 - lr: 1.0000e-04
+Epoch 7/20
+231/231 [==============================] - ETA: 0s - loss: 0.8924 - accuracy: 0.6910
+Epoch 7: val_loss improved from 0.83596 to 0.82124, saving model to best_model.h5
+231/231 [==============================] - 201s 870ms/step - loss: 0.8924 - accuracy: 0.6910 - val_loss: 0.8212 - val_accuracy: 0.7082 - lr: 1.0000e-04
+Epoch 8/20
+231/231 [==============================] - ETA: 0s - loss: 0.8727 - accuracy: 0.6941
+Epoch 8: val_loss did not improve from 0.82124
+231/231 [==============================] - 201s 869ms/step - loss: 0.8727 - accuracy: 0.6941 - val_loss: 0.8213 - val_accuracy: 0.6957 - lr: 1.0000e-04
+Epoch 9/20
+231/231 [==============================] - ETA: 0s - loss: 0.8447 - accuracy: 0.7022
+Epoch 9: val_loss improved from 0.82124 to 0.79109, saving model to best_model.h5
+231/231 [==============================] - 198s 854ms/step - loss: 0.8447 - accuracy: 0.7022 - val_loss: 0.7911 - val_accuracy: 0.7098 - lr: 1.0000e-04
+Epoch 10/20
+231/231 [==============================] - ETA: 0s - loss: 0.8173 - accuracy: 0.7070
+Epoch 10: val_loss improved from 0.79109 to 0.76387, saving model to best_model.h5
+231/231 [==============================] - 193s 834ms/step - loss: 0.8173 - accuracy: 0.7070 - val_loss: 0.7639 - val_accuracy: 0.7136 - lr: 1.0000e-04
+Epoch 11/20
+231/231 [==============================] - ETA: 0s - loss: 0.7954 - accuracy: 0.7178
+Epoch 11: val_loss improved from 0.76387 to 0.74534, saving model to best_model.h5
+231/231 [==============================] - 198s 855ms/step - loss: 0.7954 - accuracy: 0.7178 - val_loss: 0.7453 - val_accuracy: 0.7287 - lr: 1.0000e-04
+Epoch 12/20
+231/231 [==============================] - ETA: 0s - loss: 0.7793 - accuracy: 0.7208
+Epoch 12: val_loss improved from 0.74534 to 0.72154, saving model to best_model.h5
+231/231 [==============================] - 195s 842ms/step - loss: 0.7793 - accuracy: 0.7208 - val_loss: 0.7215 - val_accuracy: 0.7358 - lr: 1.0000e-04
+Epoch 13/20
+231/231 [==============================] - ETA: 0s - loss: 0.7654 - accuracy: 0.7262
+Epoch 13: val_loss improved from 0.72154 to 0.71601, saving model to best_model.h5
+231/231 [==============================] - 193s 835ms/step - loss: 0.7654 - accuracy: 0.7262 - val_loss: 0.7160 - val_accuracy: 0.7374 - lr: 1.0000e-04
+Epoch 14/20
+231/231 [==============================] - ETA: 0s - loss: 0.7378 - accuracy: 0.7358
+Epoch 14: val_loss improved from 0.71601 to 0.69195, saving model to best_model.h5
+231/231 [==============================] - 204s 880ms/step - loss: 0.7378 - accuracy: 0.7358 - val_loss: 0.6920 - val_accuracy: 0.7477 - lr: 1.0000e-04
+Epoch 15/20
+231/231 [==============================] - ETA: 0s - loss: 0.7196 - accuracy: 0.7403
+Epoch 15: val_loss improved from 0.69195 to 0.68685, saving model to best_model.h5
+231/231 [==============================] - 200s 864ms/step - loss: 0.7196 - accuracy: 0.7403 - val_loss: 0.6869 - val_accuracy: 0.7526 - lr: 1.0000e-04
+Epoch 16/20
+231/231 [==============================] - ETA: 0s - loss: 0.7088 - accuracy: 0.7453
+Epoch 16: val_loss improved from 0.68685 to 0.67908, saving model to best_model.h5
+231/231 [==============================] - 191s 828ms/step - loss: 0.7088 - accuracy: 0.7453 - val_loss: 0.6791 - val_accuracy: 0.7612 - lr: 1.0000e-04
+Epoch 17/20
+231/231 [==============================] - ETA: 0s - loss: 0.7011 - accuracy: 0.7482
+Epoch 17: val_loss improved from 0.67908 to 0.67061, saving model to best_model.h5
+231/231 [==============================] - 191s 827ms/step - loss: 0.7011 - accuracy: 0.7482 - val_loss: 0.6706 - val_accuracy: 0.7482 - lr: 1.0000e-04
+Epoch 18/20
+231/231 [==============================] - ETA: 0s - loss: 0.6800 - accuracy: 0.7587
+Epoch 18: val_loss improved from 0.67061 to 0.65770, saving model to best_model.h5
+231/231 [==============================] - 197s 851ms/step - loss: 0.6800 - accuracy: 0.7587 - val_loss: 0.6577 - val_accuracy: 0.7526 - lr: 1.0000e-04
+Epoch 19/20
+231/231 [==============================] - ETA: 0s - loss: 0.6633 - accuracy: 0.7591
+Epoch 19: val_loss did not improve from 0.65770
+231/231 [==============================] - 194s 837ms/step - loss: 0.6633 - accuracy: 0.7591 - val_loss: 0.6599 - val_accuracy: 0.7569 - lr: 1.0000e-04
+Epoch 20/20
+231/231 [==============================] - ETA: 0s - loss: 0.6554 - accuracy: 0.7690
+Epoch 20: val_loss improved from 0.65770 to 0.62921, saving model to best_model.h5
+231/231 [==============================] - 203s 877ms/step - loss: 0.6554 - accuracy: 0.7690 - val_loss: 0.6292 - val_accuracy: 0.7591 - lr: 1.0000e-04
+73/73 [==============================] - 27s 366ms/step - loss: 1.7580 - accuracy: 0.5297
+Precisión en el conjunto de prueba: 0.5297

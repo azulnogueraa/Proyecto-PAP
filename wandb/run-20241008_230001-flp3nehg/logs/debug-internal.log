@@ -1,0 +1,34 @@
+{"time":"2024-10-08T23:00:01.540521-03:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-08T23:00:01.540552-03:00","level":"INFO","msg":"created symlink","path":"/Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241008_230001-flp3nehg/logs/debug-core.log"}
+{"time":"2024-10-08T23:00:01.540731-03:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-08T23:00:01.548156-03:00","level":"INFO","msg":"created new stream","id":"flp3nehg"}
+{"time":"2024-10-08T23:00:01.548221-03:00","level":"INFO","msg":"stream: started","id":"flp3nehg"}
+{"time":"2024-10-08T23:00:01.548262-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"flp3nehg"}}
+{"time":"2024-10-08T23:00:01.548236-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"flp3nehg"}}
+{"time":"2024-10-08T23:00:01.54827-03:00","level":"INFO","msg":"sender: started","stream_id":{"value":"flp3nehg"}}
+{"time":"2024-10-08T23:00:02.094309-03:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-08T23:00:02.095202-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-08T23:00:02.72735-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T23:00:04.366-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-08T23:00:11.689417-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T23:00:17.534707-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-09T00:30:32.954929-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tp3-td6/clasificacion-celulas/flp3nehg/file_stream\": read tcp 192.168.0.179:63965->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2024-10-09T00:30:49.540918-03:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/tp3-td6/clasificacion-celulas/flp3nehg/file_stream"}
+{"time":"2024-10-09T00:33:52.074161-03:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/graphql"}
+{"time":"2024-10-09T00:34:33.02751-03:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/tp3-td6/clasificacion-celulas/flp3nehg/file_stream"}
+{"time":"2024-10-09T02:10:36.549265-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tp3-td6/clasificacion-celulas/flp3nehg/file_stream\": read tcp 192.168.0.179:50708->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2024-10-09T02:10:39.185048-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tp3-td6/clasificacion-celulas/flp3nehg/file_stream\": read tcp 192.168.0.179:50709->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2024-10-09T03:07:11.361469-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tp3-td6/clasificacion-celulas/flp3nehg/file_stream\": read tcp 192.168.0.179:52220->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2024-10-09T03:07:25.000185-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-09T03:10:01.063463-03:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/graphql"}
+{"time":"2024-10-09T07:31:52.277634-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.179:58087->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2024-10-09T07:49:49.03484-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.179:58657->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2024-10-09T09:45:45.365771-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-09T09:46:53.484184-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-09T09:46:53.484321-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-09T09:46:54.667563-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-09T09:46:55.972254-03:00","level":"INFO","msg":"stream: closing","id":"flp3nehg"}
+{"time":"2024-10-09T09:46:55.972334-03:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"flp3nehg"}}
+{"time":"2024-10-09T09:46:55.97237-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"flp3nehg"}}
+{"time":"2024-10-09T09:46:55.972385-03:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"flp3nehg"}}
+{"time":"2024-10-09T09:46:55.972675-03:00","level":"INFO","msg":"stream: closed","id":"flp3nehg"}
