@@ -1,0 +1,34 @@
+Found 7378 images belonging to 6 classes.
+Found 1847 images belonging to 6 classes.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+Epoch 1/5
+231/231 [==============================] - ETA: 0s - loss: 1.3288 - accuracy: 0.5699
+Epoch 1: val_loss improved from inf to 1.80267, saving model to checkpoints/best_weights.h5
+/Users/achula/miniconda3/envs/td8/lib/python3.8/site-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+231/231 [==============================] - 159s 668ms/step - loss: 1.3288 - accuracy: 0.5699 - val_loss: 1.8027 - val_accuracy: 0.0141
+Epoch 2/5
+231/231 [==============================] - ETA: 0s - loss: 1.2440 - accuracy: 0.5966
+Epoch 2: val_loss improved from 1.80267 to 1.18516, saving model to checkpoints/best_weights.h5
+231/231 [==============================] - 148s 643ms/step - loss: 1.2440 - accuracy: 0.5966 - val_loss: 1.1852 - val_accuracy: 0.5874
+Epoch 3/5
+231/231 [==============================] - ETA: 0s - loss: 1.2036 - accuracy: 0.6095
+Epoch 3: val_loss improved from 1.18516 to 1.10626, saving model to checkpoints/best_weights.h5
+231/231 [==============================] - 148s 638ms/step - loss: 1.2036 - accuracy: 0.6095 - val_loss: 1.1063 - val_accuracy: 0.5950
+Epoch 4/5
+231/231 [==============================] - ETA: 0s - loss: 1.1680 - accuracy: 0.6156
+Epoch 4: val_loss did not improve from 1.10626
+231/231 [==============================] - 147s 637ms/step - loss: 1.1680 - accuracy: 0.6156 - val_loss: 1.2269 - val_accuracy: 0.5994
+Epoch 5/5
+231/231 [==============================] - ETA: 0s - loss: 1.1515 - accuracy: 0.6224
+Epoch 5: val_loss did not improve from 1.10626
+231/231 [==============================] - 147s 634ms/step - loss: 1.1515 - accuracy: 0.6224 - val_loss: 1.4200 - val_accuracy: 0.2653
+[34m[1mwandb[0m: [33mWARNING[0m Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

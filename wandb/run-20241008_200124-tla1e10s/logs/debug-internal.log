@@ -1,0 +1,33 @@
+{"time":"2024-10-08T20:01:24.205303-03:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-08T20:01:24.205342-03:00","level":"INFO","msg":"created symlink","path":"/Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241008_200124-tla1e10s/logs/debug-core.log"}
+{"time":"2024-10-08T20:01:24.205516-03:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-08T20:01:24.212606-03:00","level":"INFO","msg":"created new stream","id":"tla1e10s"}
+{"time":"2024-10-08T20:01:24.212648-03:00","level":"INFO","msg":"stream: started","id":"tla1e10s"}
+{"time":"2024-10-08T20:01:24.212648-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"tla1e10s"}}
+{"time":"2024-10-08T20:01:24.212683-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"tla1e10s"}}
+{"time":"2024-10-08T20:01:24.212677-03:00","level":"INFO","msg":"sender: started","stream_id":{"value":"tla1e10s"}}
+{"time":"2024-10-08T20:01:24.918711-03:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-08T20:01:24.919518-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-08T20:01:25.484367-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T20:02:51.66419-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-08T20:02:53.361255-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T20:03:56.433863-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-08T20:03:56.435323-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T20:04:04.235927-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-08T20:04:05.792697-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T20:04:19.897541-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-08T20:04:19.902677-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T20:04:23.419403-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-08T20:04:25.009497-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T20:04:57.488956-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-08T20:43:28.109421-03:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/tp3-td6/clasificacion-celulas/tla1e10s/file_stream"}
+{"time":"2024-10-08T21:12:28.029283-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T21:12:51.321133-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-08T21:13:18.157582-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-08T21:13:18.157651-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-08T21:13:19.267583-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-08T21:13:20.59851-03:00","level":"INFO","msg":"stream: closing","id":"tla1e10s"}
+{"time":"2024-10-08T21:13:20.598578-03:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"tla1e10s"}}
+{"time":"2024-10-08T21:13:20.598625-03:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"tla1e10s"}}
+{"time":"2024-10-08T21:13:20.598611-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"tla1e10s"}}
+{"time":"2024-10-08T21:13:20.598826-03:00","level":"INFO","msg":"stream: closed","id":"tla1e10s"}

@@ -1,0 +1,46 @@
+Found 7378 images belonging to 6 classes.
+Found 1847 images belonging to 6 classes.
+Found 2309 images belonging to 6 classes.
+Class Weights: {0: 2.0771396396396398, 1: 3.177433247200689, 2: 1.1291704928068564, 3: 1.4134099616858238, 4: 0.2834639618871984, 5: 12.055555555555555}
+Epoch 1/10
+231/231 [==============================] - ETA: 0s - loss: 3.9427 - accuracy: 0.1823
+Epoch 1: val_loss improved from inf to 3.68850, saving model to checkpoints/best_weights.keras
+231/231 [==============================] - 169s 708ms/step - loss: 3.9427 - accuracy: 0.1823 - val_loss: 3.6885 - val_accuracy: 0.0141
+Epoch 2/10
+231/231 [==============================] - ETA: 0s - loss: 3.4891 - accuracy: 0.2223
+Epoch 2: val_loss improved from 3.68850 to 3.19706, saving model to checkpoints/best_weights.keras
+231/231 [==============================] - 160s 691ms/step - loss: 3.4891 - accuracy: 0.2223 - val_loss: 3.1971 - val_accuracy: 0.5874
+Epoch 3/10
+231/231 [==============================] - ETA: 0s - loss: 3.1654 - accuracy: 0.2272
+Epoch 3: val_loss improved from 3.19706 to 3.02384, saving model to checkpoints/best_weights.keras
+231/231 [==============================] - 156s 676ms/step - loss: 3.1654 - accuracy: 0.2272 - val_loss: 3.0238 - val_accuracy: 0.2978
+Epoch 4/10
+231/231 [==============================] - ETA: 0s - loss: 2.8728 - accuracy: 0.2282
+Epoch 4: val_loss improved from 3.02384 to 2.48806, saving model to checkpoints/best_weights.keras
+231/231 [==============================] - 159s 687ms/step - loss: 2.8728 - accuracy: 0.2282 - val_loss: 2.4881 - val_accuracy: 0.5983
+Epoch 5/10
+231/231 [==============================] - ETA: 0s - loss: 2.6533 - accuracy: 0.2497
+Epoch 5: val_loss improved from 2.48806 to 2.39631, saving model to checkpoints/best_weights.keras
+231/231 [==============================] - 160s 692ms/step - loss: 2.6533 - accuracy: 0.2497 - val_loss: 2.3963 - val_accuracy: 0.5376
+Epoch 6/10
+231/231 [==============================] - ETA: 0s - loss: 2.4740 - accuracy: 0.2589
+Epoch 6: val_loss did not improve from 2.39631
+231/231 [==============================] - 154s 668ms/step - loss: 2.4740 - accuracy: 0.2589 - val_loss: 2.7153 - val_accuracy: 0.0352
+Epoch 7/10
+231/231 [==============================] - ETA: 0s - loss: 2.3156 - accuracy: 0.2788
+Epoch 7: val_loss did not improve from 2.39631
+231/231 [==============================] - 156s 675ms/step - loss: 2.3156 - accuracy: 0.2788 - val_loss: 2.9164 - val_accuracy: 0.1494
+Epoch 8/10
+231/231 [==============================] - ETA: 0s - loss: 2.1857 - accuracy: 0.2802
+Epoch 8: val_loss did not improve from 2.39631
+231/231 [==============================] - 157s 677ms/step - loss: 2.1857 - accuracy: 0.2802 - val_loss: 2.7318 - val_accuracy: 0.1435
+Epoch 9/10
+231/231 [==============================] - ETA: 0s - loss: 2.0585 - accuracy: 0.3109
+Epoch 9: val_loss improved from 2.39631 to 1.58559, saving model to checkpoints/best_weights.keras
+231/231 [==============================] - 155s 669ms/step - loss: 2.0585 - accuracy: 0.3109 - val_loss: 1.5856 - val_accuracy: 0.5950
+Epoch 10/10
+231/231 [==============================] - ETA: 0s - loss: 1.9723 - accuracy: 0.3151
+Epoch 10: val_loss did not improve from 1.58559
+231/231 [==============================] - 155s 668ms/step - loss: 1.9723 - accuracy: 0.3151 - val_loss: 1.9478 - val_accuracy: 0.3124
+73/73 [==============================] - 27s 363ms/step - loss: 1.9482 - accuracy: 0.3209
+Precisión en el conjunto de prueba: 0.3209

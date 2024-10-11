@@ -1,0 +1,61 @@
+Found 7378 images belonging to 6 classes.
+Found 1847 images belonging to 6 classes.
+Found 2309 images belonging to 6 classes.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+Epoch 1/20
+231/231 [==============================] - ETA: 0s - loss: 1.0151 - accuracy: 0.6441
+Epoch 1: val_loss improved from inf to 0.85304, saving model to best_model_mobilenet.h5
+/Users/achula/miniconda3/envs/td8/lib/python3.8/site-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+231/231 [==============================] - 112s 470ms/step - loss: 1.0151 - accuracy: 0.6441 - val_loss: 0.8530 - val_accuracy: 0.6914 - lr: 1.0000e-04
+Epoch 2/20
+231/231 [==============================] - ETA: 0s - loss: 0.8602 - accuracy: 0.6930
+Epoch 2: val_loss improved from 0.85304 to 0.82667, saving model to best_model_mobilenet.h5
+231/231 [==============================] - 104s 451ms/step - loss: 0.8602 - accuracy: 0.6930 - val_loss: 0.8267 - val_accuracy: 0.7049 - lr: 1.0000e-04
+Epoch 3/20
+231/231 [==============================] - ETA: 0s - loss: 0.8014 - accuracy: 0.7151
+Epoch 3: val_loss improved from 0.82667 to 0.75485, saving model to best_model_mobilenet.h5
+231/231 [==============================] - 106s 460ms/step - loss: 0.8014 - accuracy: 0.7151 - val_loss: 0.7548 - val_accuracy: 0.7244 - lr: 1.0000e-04
+Epoch 4/20
+231/231 [==============================] - ETA: 0s - loss: 0.7705 - accuracy: 0.7236
+Epoch 4: val_loss improved from 0.75485 to 0.73557, saving model to best_model_mobilenet.h5
+231/231 [==============================] - 108s 465ms/step - loss: 0.7705 - accuracy: 0.7236 - val_loss: 0.7356 - val_accuracy: 0.7347 - lr: 1.0000e-04
+Epoch 5/20
+231/231 [==============================] - ETA: 0s - loss: 0.7346 - accuracy: 0.7329
+Epoch 5: val_loss did not improve from 0.73557
+231/231 [==============================] - 108s 465ms/step - loss: 0.7346 - accuracy: 0.7329 - val_loss: 0.7391 - val_accuracy: 0.7401 - lr: 1.0000e-04
+Epoch 6/20
+231/231 [==============================] - ETA: 0s - loss: 0.7060 - accuracy: 0.7457
+Epoch 6: val_loss improved from 0.73557 to 0.73088, saving model to best_model_mobilenet.h5
+231/231 [==============================] - 107s 461ms/step - loss: 0.7060 - accuracy: 0.7457 - val_loss: 0.7309 - val_accuracy: 0.7342 - lr: 1.0000e-04
+Epoch 7/20
+231/231 [==============================] - ETA: 0s - loss: 0.6950 - accuracy: 0.7444
+Epoch 7: val_loss improved from 0.73088 to 0.72506, saving model to best_model_mobilenet.h5
+231/231 [==============================] - 104s 449ms/step - loss: 0.6950 - accuracy: 0.7444 - val_loss: 0.7251 - val_accuracy: 0.7396 - lr: 1.0000e-04
+Epoch 8/20
+231/231 [==============================] - ETA: 0s - loss: 0.6711 - accuracy: 0.7533
+Epoch 8: val_loss improved from 0.72506 to 0.70479, saving model to best_model_mobilenet.h5
+231/231 [==============================] - 103s 445ms/step - loss: 0.6711 - accuracy: 0.7533 - val_loss: 0.7048 - val_accuracy: 0.7493 - lr: 1.0000e-04
+Epoch 9/20
+231/231 [==============================] - ETA: 0s - loss: 0.6392 - accuracy: 0.7635
+Epoch 9: val_loss improved from 0.70479 to 0.67808, saving model to best_model_mobilenet.h5
+231/231 [==============================] - 101s 438ms/step - loss: 0.6392 - accuracy: 0.7635 - val_loss: 0.6781 - val_accuracy: 0.7493 - lr: 1.0000e-04
+Epoch 10/20
+231/231 [==============================] - ETA: 0s - loss: 0.6079 - accuracy: 0.7722
+Epoch 10: val_loss did not improve from 0.67808
+231/231 [==============================] - 107s 462ms/step - loss: 0.6079 - accuracy: 0.7722 - val_loss: 0.7063 - val_accuracy: 0.7347 - lr: 1.0000e-04
+Epoch 11/20
+231/231 [==============================] - ETA: 0s - loss: 0.6055 - accuracy: 0.7758
+Epoch 11: val_loss improved from 0.67808 to 0.67747, saving model to best_model_mobilenet.h5
+231/231 [==============================] - 108s 467ms/step - loss: 0.6055 - accuracy: 0.7758 - val_loss: 0.6775 - val_accuracy: 0.7504 - lr: 1.0000e-04
+Epoch 12/20
+231/231 [==============================] - ETA: 0s - loss: 0.5717 - accuracy: 0.7850
+Epoch 12: val_loss did not improve from 0.67747
+231/231 [==============================] - 107s 464ms/step - loss: 0.5717 - accuracy: 0.7850 - val_loss: 0.6932 - val_accuracy: 0.7455 - lr: 1.0000e-04
+Epoch 13/20
+231/231 [==============================] - ETA: 0s - loss: 0.5609 - accuracy: 0.7861
+Epoch 13: val_loss did not improve from 0.67747
+231/231 [==============================] - 105s 453ms/step - loss: 0.5609 - accuracy: 0.7861 - val_loss: 0.7171 - val_accuracy: 0.7455 - lr: 1.0000e-04
+Epoch 14/20
+104/231 [============>.................] - ETA: 54s - loss: 0.5186 - accuracy: 0.8077

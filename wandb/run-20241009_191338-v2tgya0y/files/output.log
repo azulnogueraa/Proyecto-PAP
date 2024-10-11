@@ -1,0 +1,90 @@
+Found 7378 images belonging to 6 classes.
+Found 1847 images belonging to 6 classes.
+Found 2309 images belonging to 6 classes.
+Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/mobilenet_v3/weights_mobilenet_v3_large_224_1.0_float_no_top_v2.h5
+12683000/12683000 [==============================] - 1s 0us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+Epoch 1/20
+231/231 [==============================] - ETA: 0s - loss: 6.5516 - accuracy: 0.2659
+Epoch 1: val_loss improved from inf to 5.17395, saving model to best_model_mobilenetv3.h5
+/Users/achula/miniconda3/envs/td8/lib/python3.8/site-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+231/231 [==============================] - 200s 843ms/step - loss: 6.5516 - accuracy: 0.2659 - val_loss: 5.1740 - val_accuracy: 0.5030 - lr: 1.0000e-04
+Epoch 2/20
+231/231 [==============================] - ETA: 0s - loss: 5.7514 - accuracy: 0.4042
+Epoch 2: val_loss improved from 5.17395 to 5.09121, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 193s 836ms/step - loss: 5.7514 - accuracy: 0.4042 - val_loss: 5.0912 - val_accuracy: 0.5100 - lr: 1.0000e-04
+Epoch 3/20
+231/231 [==============================] - ETA: 0s - loss: 5.2278 - accuracy: 0.4536
+Epoch 3: val_loss improved from 5.09121 to 4.78539, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 192s 828ms/step - loss: 5.2278 - accuracy: 0.4536 - val_loss: 4.7854 - val_accuracy: 0.5501 - lr: 1.0000e-04
+Epoch 4/20
+231/231 [==============================] - ETA: 0s - loss: 4.8473 - accuracy: 0.5004
+Epoch 4: val_loss improved from 4.78539 to 4.54700, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 192s 831ms/step - loss: 4.8473 - accuracy: 0.5004 - val_loss: 4.5470 - val_accuracy: 0.5809 - lr: 1.0000e-04
+Epoch 5/20
+231/231 [==============================] - ETA: 0s - loss: 4.6275 - accuracy: 0.5316
+Epoch 5: val_loss improved from 4.54700 to 4.30826, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 195s 842ms/step - loss: 4.6275 - accuracy: 0.5316 - val_loss: 4.3083 - val_accuracy: 0.5972 - lr: 1.0000e-04
+Epoch 6/20
+231/231 [==============================] - ETA: 0s - loss: 4.3309 - accuracy: 0.5766
+Epoch 6: val_loss improved from 4.30826 to 4.10974, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 204s 881ms/step - loss: 4.3309 - accuracy: 0.5766 - val_loss: 4.1097 - val_accuracy: 0.6215 - lr: 1.0000e-04
+Epoch 7/20
+231/231 [==============================] - ETA: 0s - loss: 4.0906 - accuracy: 0.5993
+Epoch 7: val_loss improved from 4.10974 to 3.87978, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 203s 878ms/step - loss: 4.0906 - accuracy: 0.5993 - val_loss: 3.8798 - val_accuracy: 0.6367 - lr: 1.0000e-04
+Epoch 8/20
+231/231 [==============================] - ETA: 0s - loss: 3.8535 - accuracy: 0.6190
+Epoch 8: val_loss improved from 3.87978 to 3.64874, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 202s 874ms/step - loss: 3.8535 - accuracy: 0.6190 - val_loss: 3.6487 - val_accuracy: 0.6540 - lr: 1.0000e-04
+Epoch 9/20
+231/231 [==============================] - ETA: 0s - loss: 3.5940 - accuracy: 0.6483
+Epoch 9: val_loss improved from 3.64874 to 3.44908, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 203s 878ms/step - loss: 3.5940 - accuracy: 0.6483 - val_loss: 3.4491 - val_accuracy: 0.6676 - lr: 1.0000e-04
+Epoch 10/20
+231/231 [==============================] - ETA: 0s - loss: 3.3765 - accuracy: 0.6690
+Epoch 10: val_loss improved from 3.44908 to 3.24329, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 202s 874ms/step - loss: 3.3765 - accuracy: 0.6690 - val_loss: 3.2433 - val_accuracy: 0.6849 - lr: 1.0000e-04
+Epoch 11/20
+231/231 [==============================] - ETA: 0s - loss: 3.1956 - accuracy: 0.6731
+Epoch 11: val_loss improved from 3.24329 to 3.07326, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 339s 1s/step - loss: 3.1956 - accuracy: 0.6731 - val_loss: 3.0733 - val_accuracy: 0.6806 - lr: 1.0000e-04
+Epoch 12/20
+231/231 [==============================] - ETA: 0s - loss: 2.9645 - accuracy: 0.7001 
+Epoch 12: val_loss improved from 3.07326 to 2.86889, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 6755s 29s/step - loss: 2.9645 - accuracy: 0.7001 - val_loss: 2.8689 - val_accuracy: 0.7022 - lr: 1.0000e-04
+Epoch 13/20
+231/231 [==============================] - ETA: 0s - loss: 2.7565 - accuracy: 0.7076
+Epoch 13: val_loss improved from 2.86889 to 2.67657, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 247s 1s/step - loss: 2.7565 - accuracy: 0.7076 - val_loss: 2.6766 - val_accuracy: 0.7147 - lr: 1.0000e-04
+Epoch 14/20
+231/231 [==============================] - ETA: 0s - loss: 2.5605 - accuracy: 0.7239
+Epoch 14: val_loss improved from 2.67657 to 2.53188, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 191s 825ms/step - loss: 2.5605 - accuracy: 0.7239 - val_loss: 2.5319 - val_accuracy: 0.7206 - lr: 1.0000e-04
+Epoch 15/20
+231/231 [==============================] - ETA: 0s - loss: 2.3859 - accuracy: 0.7465
+Epoch 15: val_loss improved from 2.53188 to 2.32922, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 191s 825ms/step - loss: 2.3859 - accuracy: 0.7465 - val_loss: 2.3292 - val_accuracy: 0.7461 - lr: 1.0000e-04
+Epoch 16/20
+231/231 [==============================] - ETA: 0s - loss: 2.1899 - accuracy: 0.7578
+Epoch 16: val_loss improved from 2.32922 to 2.17794, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 193s 835ms/step - loss: 2.1899 - accuracy: 0.7578 - val_loss: 2.1779 - val_accuracy: 0.7293 - lr: 1.0000e-04
+Epoch 17/20
+231/231 [==============================] - ETA: 0s - loss: 2.0426 - accuracy: 0.7685
+Epoch 17: val_loss improved from 2.17794 to 2.00629, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 204s 881ms/step - loss: 2.0426 - accuracy: 0.7685 - val_loss: 2.0063 - val_accuracy: 0.7661 - lr: 1.0000e-04
+Epoch 18/20
+231/231 [==============================] - ETA: 0s - loss: 1.8984 - accuracy: 0.7727
+Epoch 18: val_loss improved from 2.00629 to 1.89682, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 203s 877ms/step - loss: 1.8984 - accuracy: 0.7727 - val_loss: 1.8968 - val_accuracy: 0.7553 - lr: 1.0000e-04
+Epoch 19/20
+231/231 [==============================] - ETA: 0s - loss: 1.7399 - accuracy: 0.7879
+Epoch 19: val_loss improved from 1.89682 to 1.75699, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 204s 881ms/step - loss: 1.7399 - accuracy: 0.7879 - val_loss: 1.7570 - val_accuracy: 0.7666 - lr: 1.0000e-04
+Epoch 20/20
+231/231 [==============================] - ETA: 0s - loss: 1.6006 - accuracy: 0.7987
+Epoch 20: val_loss improved from 1.75699 to 1.67262, saving model to best_model_mobilenetv3.h5
+231/231 [==============================] - 197s 853ms/step - loss: 1.6006 - accuracy: 0.7987 - val_loss: 1.6726 - val_accuracy: 0.7612 - lr: 1.0000e-04
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

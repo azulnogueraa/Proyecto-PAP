@@ -1,0 +1,45 @@
+Found 4800 images belonging to 6 classes.
+Found 1200 images belonging to 6 classes.
+Found 1800 images belonging to 6 classes.
+ 75%|███████▌  | 15/20 [1:56:33<38:43, 464.72s/epoch, loss=0.629, accuracy=0.164, val_loss=0.628, val_accuracy=0.167, lr=1e-04]  
+100%|██████████| 150/150 [07:08<00:00, 2.77s/batch, loss=0.627, accuracy=0.158]  
+
+Epoch 1: val_loss improved from inf to 2.65762, saving model to checkpoints/best_weights.h5
+
+Epoch 2: val_loss improved from 2.65762 to 1.51134, saving model to checkpoints/best_weights.h5
+
+Epoch 3: val_loss improved from 1.51134 to 1.02032, saving model to checkpoints/best_weights.h5
+
+Epoch 4: val_loss improved from 1.02032 to 0.81904, saving model to checkpoints/best_weights.h5
+
+Epoch 5: val_loss improved from 0.81904 to 0.73523, saving model to checkpoints/best_weights.h5
+
+Epoch 6: val_loss improved from 0.73523 to 0.69619, saving model to checkpoints/best_weights.h5
+
+Epoch 7: val_loss improved from 0.69619 to 0.67450, saving model to checkpoints/best_weights.h5
+
+Epoch 8: val_loss improved from 0.67450 to 0.66054, saving model to checkpoints/best_weights.h5
+
+Epoch 9: val_loss improved from 0.66054 to 0.65081, saving model to checkpoints/best_weights.h5
+
+Epoch 10: val_loss improved from 0.65081 to 0.64376, saving model to checkpoints/best_weights.h5
+
+Epoch 11: val_loss improved from 0.64376 to 0.63855, saving model to checkpoints/best_weights.h5
+
+Epoch 12: val_loss improved from 0.63855 to 0.63465, saving model to checkpoints/best_weights.h5
+
+Epoch 13: val_loss improved from 0.63465 to 0.63171, saving model to checkpoints/best_weights.h5
+
+Epoch 14: val_loss improved from 0.63171 to 0.62948, saving model to checkpoints/best_weights.h5
+
+Epoch 15: val_loss improved from 0.62948 to 0.62777, saving model to checkpoints/best_weights.h5
+
+Epoch 16: val_loss improved from 0.62777 to 0.62647, saving model to checkpoints/best_weights.h5
+
+Epoch 17: val_loss improved from 0.62647 to 0.62546, saving model to checkpoints/best_weights.h5
+
+Epoch 18: val_loss improved from 0.62546 to 0.62469, saving model to checkpoints/best_weights.h5
+
+Epoch 19: val_loss improved from 0.62469 to 0.62410, saving model to checkpoints/best_weights.h5
+
+Epoch 20: val_loss improved from 0.62410 to 0.62364, saving model to checkpoints/best_weights.h5

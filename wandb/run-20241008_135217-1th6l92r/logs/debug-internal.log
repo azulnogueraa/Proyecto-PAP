@@ -1,0 +1,22 @@
+{"time":"2024-10-08T13:52:17.741931-03:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-08T13:52:17.741965-03:00","level":"INFO","msg":"created symlink","path":"/Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241008_135217-1th6l92r/logs/debug-core.log"}
+{"time":"2024-10-08T13:52:17.742351-03:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-08T13:52:17.748902-03:00","level":"INFO","msg":"created new stream","id":"1th6l92r"}
+{"time":"2024-10-08T13:52:17.74896-03:00","level":"INFO","msg":"stream: started","id":"1th6l92r"}
+{"time":"2024-10-08T13:52:17.748951-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"1th6l92r"}}
+{"time":"2024-10-08T13:52:17.748982-03:00","level":"INFO","msg":"sender: started","stream_id":{"value":"1th6l92r"}}
+{"time":"2024-10-08T13:52:17.749033-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"1th6l92r"}}
+{"time":"2024-10-08T13:52:18.338371-03:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-08T13:52:18.339244-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-08T13:52:18.770841-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T13:52:21.787235-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-08T13:52:45.896109-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T13:53:03.921841-03:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql"}
+{"time":"2024-10-08T13:53:06.014948-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-08T13:53:06.030199-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-08T13:53:06.030281-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-08T13:53:06.466084-03:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql"}
+{"time":"2024-10-08T13:53:11.430494-03:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql"}
+{"time":"2024-10-08T13:53:19.183233-03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/tp3-td6/clasificacion-celulas/1th6l92r/file_stream"}
+{"time":"2024-10-08T13:53:19.183409-03:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/tp3-td6/clasificacion-celulas/1th6l92r/file_stream: {\"error\":\"run clasificacion-celulas/1th6l92r not found while streaming file\"}"}
+{"time":"2024-10-08T13:53:21.184438-03:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql"}

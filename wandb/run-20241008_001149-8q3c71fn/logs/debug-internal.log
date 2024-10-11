@@ -1,0 +1,8 @@
+{"time":"2024-10-08T00:11:49.017698-03:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-08T00:11:49.017761-03:00","level":"INFO","msg":"created symlink","path":"/Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241008_001149-8q3c71fn/logs/debug-core.log"}
+{"time":"2024-10-08T00:11:49.017908-03:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-08T00:11:49.025229-03:00","level":"INFO","msg":"created new stream","id":"8q3c71fn"}
+{"time":"2024-10-08T00:11:49.025271-03:00","level":"INFO","msg":"stream: started","id":"8q3c71fn"}
+{"time":"2024-10-08T00:11:49.025274-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"8q3c71fn"}}
+{"time":"2024-10-08T00:11:49.02531-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"8q3c71fn"}}
+{"time":"2024-10-08T00:11:49.025301-03:00","level":"INFO","msg":"sender: started","stream_id":{"value":"8q3c71fn"}}
