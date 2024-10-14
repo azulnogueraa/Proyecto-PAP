@@ -1,0 +1,15 @@
+{"time":"2024-10-14T09:51:16.674093-03:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-14T09:51:16.674151-03:00","level":"INFO","msg":"created symlink","path":"/Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241014_095116-ilbwgp94/logs/debug-core.log"}
+{"time":"2024-10-14T09:51:16.67428-03:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-14T09:51:16.68167-03:00","level":"INFO","msg":"created new stream","id":"ilbwgp94"}
+{"time":"2024-10-14T09:51:16.681715-03:00","level":"INFO","msg":"stream: started","id":"ilbwgp94"}
+{"time":"2024-10-14T09:51:16.681713-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ilbwgp94"}}
+{"time":"2024-10-14T09:51:16.681765-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ilbwgp94"}}
+{"time":"2024-10-14T09:51:16.681753-03:00","level":"INFO","msg":"sender: started","stream_id":{"value":"ilbwgp94"}}
+{"time":"2024-10-14T09:51:17.178902-03:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-14T09:51:17.179626-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-14T09:51:17.746656-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-14T09:51:17.757791-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-14T09:51:19.212889-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-14T09:51:19.218725-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-14T09:57:47.6185-03:00","level":"INFO","msg":"Pausing system monitor"}

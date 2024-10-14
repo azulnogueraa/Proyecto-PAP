@@ -1,0 +1,15 @@
+Found 7378 images belonging to 6 classes.
+Found 1847 images belonging to 6 classes.
+Found 2309 images belonging to 6 classes.
+Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/inception_v3/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
+87910968/87910968 [==============================] - 4s 0us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+Epoch 1/20
+231/231 [==============================] - ETA: 0s - loss: 0.7953 - accuracy: 0.7177
+Epoch 1: val_loss improved from inf to 0.55976, saving model to best_model_inception.h5
+/Users/achula/miniconda3/envs/td8/lib/python3.8/site-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+231/231 [==============================] - 712s 3s/step - loss: 0.7953 - accuracy: 0.7177 - val_loss: 0.5598 - val_accuracy: 0.7921 - lr: 1.0000e-04
+Epoch 2/20
+10/73 [===>..........................] - ETA: 1:17 - loss: 3.7747 - accuracy: 0.0938

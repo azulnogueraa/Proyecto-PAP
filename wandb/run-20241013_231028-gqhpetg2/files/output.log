@@ -1,0 +1,78 @@
+Found 8097 images belonging to 6 classes.
+Found 1847 images belonging to 6 classes.
+Found 2309 images belonging to 6 classes.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+[34m[1mwandb[0m: [33mWARNING[0m WandbCallback is deprecated and will be removed in a future release. Please use the WandbMetricsLogger, WandbModelCheckpoint, and WandbEvalCallback callbacks instead. See https://docs.wandb.ai/guides/integrations/keras for more information.
+Epoch 1/20
+254/254 [==============================] - ETA: 0s - loss: 1.0508 - accuracy: 0.6141
+Epoch 1: val_loss improved from inf to 0.82181, saving model to best_model.h5
+/Users/achula/miniconda3/envs/td8/lib/python3.8/site-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+254/254 [==============================] - 779s 3s/step - loss: 1.0508 - accuracy: 0.6141 - val_loss: 0.8218 - val_accuracy: 0.6973 - lr: 1.0000e-04
+Epoch 2/20
+254/254 [==============================] - ETA: 0s - loss: 0.7587 - accuracy: 0.7189
+Epoch 2: val_loss improved from 0.82181 to 0.68545, saving model to best_model.h5
+254/254 [==============================] - 779s 3s/step - loss: 0.7587 - accuracy: 0.7189 - val_loss: 0.6854 - val_accuracy: 0.7488 - lr: 1.0000e-04
+Epoch 3/20
+254/254 [==============================] - ETA: 0s - loss: 0.6543 - accuracy: 0.7610
+Epoch 3: val_loss improved from 0.68545 to 0.63454, saving model to best_model.h5
+254/254 [==============================] - 855s 3s/step - loss: 0.6543 - accuracy: 0.7610 - val_loss: 0.6345 - val_accuracy: 0.7656 - lr: 1.0000e-04
+Epoch 4/20
+254/254 [==============================] - ETA: 0s - loss: 0.5610 - accuracy: 0.7909
+Epoch 4: val_loss improved from 0.63454 to 0.63084, saving model to best_model.h5
+254/254 [==============================] - 924s 4s/step - loss: 0.5610 - accuracy: 0.7909 - val_loss: 0.6308 - val_accuracy: 0.7650 - lr: 1.0000e-04
+Epoch 5/20
+254/254 [==============================] - ETA: 0s - loss: 0.4995 - accuracy: 0.8173
+Epoch 5: val_loss improved from 0.63084 to 0.60928, saving model to best_model.h5
+254/254 [==============================] - 927s 4s/step - loss: 0.4995 - accuracy: 0.8173 - val_loss: 0.6093 - val_accuracy: 0.7851 - lr: 1.0000e-04
+Epoch 6/20
+254/254 [==============================] - ETA: 0s - loss: 0.4179 - accuracy: 0.8470
+Epoch 6: val_loss improved from 0.60928 to 0.58558, saving model to best_model.h5
+254/254 [==============================] - 927s 4s/step - loss: 0.4179 - accuracy: 0.8470 - val_loss: 0.5856 - val_accuracy: 0.7943 - lr: 1.0000e-04
+Epoch 7/20
+254/254 [==============================] - ETA: 0s - loss: 0.3766 - accuracy: 0.8660
+Epoch 7: val_loss did not improve from 0.58558
+254/254 [==============================] - 927s 4s/step - loss: 0.3766 - accuracy: 0.8660 - val_loss: 0.5886 - val_accuracy: 0.8067 - lr: 1.0000e-04
+Epoch 8/20
+254/254 [==============================] - ETA: 0s - loss: 0.3191 - accuracy: 0.8875
+Epoch 8: val_loss did not improve from 0.58558
+254/254 [==============================] - 932s 4s/step - loss: 0.3191 - accuracy: 0.8875 - val_loss: 0.5967 - val_accuracy: 0.8002 - lr: 1.0000e-04
+Epoch 9/20
+254/254 [==============================] - ETA: 0s - loss: 0.2591 - accuracy: 0.9082
+Epoch 9: val_loss did not improve from 0.58558
+254/254 [==============================] - 927s 4s/step - loss: 0.2591 - accuracy: 0.9082 - val_loss: 0.6503 - val_accuracy: 0.8002 - lr: 1.0000e-04
+Epoch 10/20
+254/254 [==============================] - ETA: 0s - loss: 0.2474 - accuracy: 0.9137
+Epoch 10: val_loss did not improve from 0.58558
+254/254 [==============================] - 867s 3s/step - loss: 0.2474 - accuracy: 0.9137 - val_loss: 0.5968 - val_accuracy: 0.8132 - lr: 1.0000e-04
+Epoch 11/20
+254/254 [==============================] - ETA: 0s - loss: 0.2054 - accuracy: 0.9263
+Epoch 11: ReduceLROnPlateau reducing learning rate to 1.9999999494757503e-05.
+
+Epoch 11: val_loss did not improve from 0.58558
+254/254 [==============================] - 798s 3s/step - loss: 0.2054 - accuracy: 0.9263 - val_loss: 0.6440 - val_accuracy: 0.8073 - lr: 1.0000e-04
+Epoch 12/20
+254/254 [==============================] - ETA: 0s - loss: 0.1491 - accuracy: 0.9491
+Epoch 12: val_loss did not improve from 0.58558
+254/254 [==============================] - 803s 3s/step - loss: 0.1491 - accuracy: 0.9491 - val_loss: 0.6072 - val_accuracy: 0.8132 - lr: 2.0000e-05
+Epoch 13/20
+254/254 [==============================] - ETA: 0s - loss: 0.1235 - accuracy: 0.9600
+Epoch 13: val_loss did not improve from 0.58558
+254/254 [==============================] - 763s 3s/step - loss: 0.1235 - accuracy: 0.9600 - val_loss: 0.6173 - val_accuracy: 0.8181 - lr: 2.0000e-05
+Epoch 14/20
+254/254 [==============================] - ETA: 0s - loss: 0.1093 - accuracy: 0.9642
+Epoch 14: val_loss did not improve from 0.58558
+254/254 [==============================] - 792s 3s/step - loss: 0.1093 - accuracy: 0.9642 - val_loss: 0.6402 - val_accuracy: 0.8257 - lr: 2.0000e-05
+Epoch 15/20
+254/254 [==============================] - ETA: 0s - loss: 0.1075 - accuracy: 0.9638
+Epoch 15: val_loss did not improve from 0.58558
+254/254 [==============================] - 799s 3s/step - loss: 0.1075 - accuracy: 0.9638 - val_loss: 0.6271 - val_accuracy: 0.8273 - lr: 2.0000e-05
+Epoch 16/20
+254/254 [==============================] - ETA: 0s - loss: 0.0952 - accuracy: 0.9688
+Epoch 16: ReduceLROnPlateau reducing learning rate to 3.999999898951501e-06.
+
+Epoch 16: val_loss did not improve from 0.58558
+254/254 [==============================] - 799s 3s/step - loss: 0.0952 - accuracy: 0.9688 - val_loss: 0.6538 - val_accuracy: 0.8305 - lr: 2.0000e-05
+73/73 [==============================] - 75s 1s/step - loss: 2.1716 - accuracy: 0.4833
+Precisión en el conjunto de prueba: 0.4833
