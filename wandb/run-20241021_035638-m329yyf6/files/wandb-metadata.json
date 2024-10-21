@@ -1,0 +1,31 @@
+{
+  "os": "macOS-10.16-x86_64-i386-64bit",
+  "python": "3.10.15",
+  "startedAt": "2024-10-21T06:56:43.325202Z",
+  "program": "/Users/nataliamassri/Desktop/Proyecto-PAP/papsmear_clasification_5clases.ipynb",
+  "git": {
+    "remote": "https://github.com/azulnogueraa/Proyecto-PAP.git",
+    "commit": "cc654124571ec23f7c797bd0995d0b23b6309441"
+  },
+  "email": "natimassri@gmail.com",
+  "root": "/Users/nataliamassri/Desktop/Proyecto-PAP",
+  "host": "MBPdeNatalia2",
+  "username": "nataliamassri",
+  "executable": "/Users/nataliamassri/opt/anaconda3/envs/metodos/bin/python",
+  "codePathLocal": "papsmear_clasification_5clases.ipynb",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "195342393344"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  }
+}

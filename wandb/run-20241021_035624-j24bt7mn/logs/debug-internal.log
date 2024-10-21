@@ -1,0 +1,19 @@
+{"time":"2024-10-21T03:56:24.676099-03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-21T03:56:24.676157-03:00","level":"INFO","msg":"created symlink","path":"/Users/nataliamassri/Desktop/Proyecto-PAP/wandb/run-20241021_035624-j24bt7mn/logs/debug-core.log"}
+{"time":"2024-10-21T03:56:24.819829-03:00","level":"INFO","msg":"created new stream","id":"j24bt7mn"}
+{"time":"2024-10-21T03:56:24.820302-03:00","level":"INFO","msg":"stream: started","id":"j24bt7mn"}
+{"time":"2024-10-21T03:56:24.820569-03:00","level":"INFO","msg":"sender: started","stream_id":"j24bt7mn"}
+{"time":"2024-10-21T03:56:24.820653-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"j24bt7mn"}}
+{"time":"2024-10-21T03:56:24.820565-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"j24bt7mn"}}
+{"time":"2024-10-21T03:56:25.525447-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-21T03:56:28.60593-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-21T03:56:38.038441-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-21T03:56:38.050911-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-21T03:56:38.056709-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-21T03:56:39.055939-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.794122375},{"desc":"uploading config.yaml","runtime_seconds":0.473998167,"progress":"605B/605B"}],"total_operations":2}}
+{"time":"2024-10-21T03:56:42.019267-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-21T03:56:43.317569-03:00","level":"INFO","msg":"stream: closing","id":"j24bt7mn"}
+{"time":"2024-10-21T03:56:43.318145-03:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"j24bt7mn"}}
+{"time":"2024-10-21T03:56:43.318529-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"j24bt7mn"}}
+{"time":"2024-10-21T03:56:43.318712-03:00","level":"INFO","msg":"sender: closed","stream_id":"j24bt7mn"}
+{"time":"2024-10-21T03:56:43.320269-03:00","level":"INFO","msg":"stream: closed","id":"j24bt7mn"}
