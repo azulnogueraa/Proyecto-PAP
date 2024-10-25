@@ -1,0 +1,7 @@
+{"time":"2024-10-24T01:53:09.460572-03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-24T01:53:09.46061-03:00","level":"INFO","msg":"created symlink","path":"/Users/nataliamassri/Desktop/Proyecto-PAP/wandb/run-20241024_015309-a8qu3fgy/logs/debug-core.log"}
+{"time":"2024-10-24T01:53:09.589422-03:00","level":"INFO","msg":"created new stream","id":"a8qu3fgy"}
+{"time":"2024-10-24T01:53:09.589544-03:00","level":"INFO","msg":"stream: started","id":"a8qu3fgy"}
+{"time":"2024-10-24T01:53:09.589615-03:00","level":"INFO","msg":"sender: started","stream_id":"a8qu3fgy"}
+{"time":"2024-10-24T01:53:09.589579-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"a8qu3fgy"}}
+{"time":"2024-10-24T01:53:09.589642-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"a8qu3fgy"}}

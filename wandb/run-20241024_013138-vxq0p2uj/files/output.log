@@ -1,0 +1,38 @@
+Found 3975 images belonging to 5 classes.
+Found 713 images belonging to 5 classes.
+Found 714 images belonging to 5 classes.
+[34m[1mwandb[0m: [33mWARNING[0m WandbCallback is deprecated and will be removed in a future release. Please use the WandbMetricsLogger, WandbModelCheckpoint, and WandbEvalCallback callbacks instead. See https://docs.wandb.ai/guides/integrations/keras for more information.
+2024-10-24 01:31:42.331857: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype int32
+	 [[{{node Placeholder/_0}}]]
+Epoch 1/30
+125/125 [==============================] - 85s 640ms/step - loss: 1.7167 - accuracy: 0.2777 - precision: 0.3684 - recall: 0.0018 - auc: 0.5758 - f1_score: 0.5758 - val_loss: 1.7507 - val_accuracy: 0.1950 - val_precision: 0.0000e+00 - val_recall: 0.0000e+00 - val_auc: 0.4129 - val_f1_score: 0.4129 - lr: 1.0000e-04
+2024-10-24 01:32:55.705803: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype int32
+	 [[{{node Placeholder/_0}}]]
+[34m[1mwandb[0m: [33mWARNING[0m Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.
+Epoch 2/30
+125/125 [==============================] - 81s 645ms/step - loss: 1.6974 - accuracy: 0.2792 - precision: 0.1667 - recall: 2.5157e-04 - auc: 0.5873 - f1_score: 0.5873 - val_loss: 1.7015 - val_accuracy: 0.1950 - val_precision: 0.0000e+00 - val_recall: 0.0000e+00 - val_auc: 0.6522 - val_f1_score: 0.6522 - lr: 1.0000e-04
+Epoch 3/30
+125/125 [==============================] - 77s 616ms/step - loss: 1.6906 - accuracy: 0.2860 - precision: 1.0000 - recall: 5.0314e-04 - auc: 0.5881 - f1_score: 0.5881 - val_loss: 1.6543 - val_accuracy: 0.3576 - val_precision: 0.0000e+00 - val_recall: 0.0000e+00 - val_auc: 0.7064 - val_f1_score: 0.7064 - lr: 1.0000e-04
+Epoch 4/30
+125/125 [==============================] - 76s 609ms/step - loss: 1.6830 - accuracy: 0.2931 - precision: 0.0000e+00 - recall: 0.0000e+00 - auc: 0.5894 - f1_score: 0.5894 - val_loss: 1.6513 - val_accuracy: 0.3576 - val_precision: 0.0000e+00 - val_recall: 0.0000e+00 - val_auc: 0.6781 - val_f1_score: 0.6781 - lr: 1.0000e-04
+Epoch 5/30
+125/125 [==============================] - 80s 635ms/step - loss: 1.6805 - accuracy: 0.2855 - precision: 0.0000e+00 - recall: 0.0000e+00 - auc: 0.5882 - f1_score: 0.5882 - val_loss: 1.6152 - val_accuracy: 0.3576 - val_precision: 0.0000e+00 - val_recall: 0.0000e+00 - val_auc: 0.6486 - val_f1_score: 0.6486 - lr: 1.0000e-04
+Epoch 6/30
+125/125 [==============================] - 75s 602ms/step - loss: 1.6784 - accuracy: 0.2943 - precision: 0.0000e+00 - recall: 0.0000e+00 - auc: 0.5825 - f1_score: 0.5825 - val_loss: 1.6204 - val_accuracy: 0.3576 - val_precision: 0.0000e+00 - val_recall: 0.0000e+00 - val_auc: 0.6622 - val_f1_score: 0.6622 - lr: 1.0000e-04
+Epoch 7/30
+125/125 [==============================] - 75s 602ms/step - loss: 1.6694 - accuracy: 0.2875 - precision: 0.0000e+00 - recall: 0.0000e+00 - auc: 0.5897 - f1_score: 0.5897 - val_loss: 1.6197 - val_accuracy: 0.3576 - val_precision: 0.0000e+00 - val_recall: 0.0000e+00 - val_auc: 0.6372 - val_f1_score: 0.6372 - lr: 1.0000e-04
+Epoch 8/30
+125/125 [==============================] - 76s 604ms/step - loss: 1.6602 - accuracy: 0.2958 - precision: 0.0000e+00 - recall: 0.0000e+00 - auc: 0.5949 - f1_score: 0.5949 - val_loss: 1.5959 - val_accuracy: 0.3576 - val_precision: 0.0000e+00 - val_recall: 0.0000e+00 - val_auc: 0.7078 - val_f1_score: 0.7078 - lr: 1.0000e-04
+Epoch 9/30
+125/125 [==============================] - 76s 606ms/step - loss: 1.6561 - accuracy: 0.2991 - precision: 0.0000e+00 - recall: 0.0000e+00 - auc: 0.5970 - f1_score: 0.5970 - val_loss: 1.6185 - val_accuracy: 0.3576 - val_precision: 0.0000e+00 - val_recall: 0.0000e+00 - val_auc: 0.7217 - val_f1_score: 0.7217 - lr: 1.0000e-04
+Epoch 10/30
+125/125 [==============================] - 76s 604ms/step - loss: 1.6525 - accuracy: 0.2958 - precision: 0.0000e+00 - recall: 0.0000e+00 - auc: 0.5954 - f1_score: 0.5954 - val_loss: 1.5742 - val_accuracy: 0.3576 - val_precision: 0.0000e+00 - val_recall: 0.0000e+00 - val_auc: 0.6582 - val_f1_score: 0.6582 - lr: 1.0000e-04
+Epoch 11/30
+125/125 [==============================] - 76s 603ms/step - loss: 1.6467 - accuracy: 0.2979 - precision: 0.0000e+00 - recall: 0.0000e+00 - auc: 0.5960 - f1_score: 0.5960 - val_loss: 1.5889 - val_accuracy: 0.3576 - val_precision: 0.0000e+00 - val_recall: 0.0000e+00 - val_auc: 0.7248 - val_f1_score: 0.7248 - lr: 1.0000e-04
+Epoch 12/30
+125/125 [==============================] - 76s 603ms/step - loss: 1.6469 - accuracy: 0.2974 - precision: 0.0000e+00 - recall: 0.0000e+00 - auc: 0.5906 - f1_score: 0.5906 - val_loss: 1.6156 - val_accuracy: 0.3576 - val_precision: 0.0000e+00 - val_recall: 0.0000e+00 - val_auc: 0.6855 - val_f1_score: 0.6855 - lr: 1.0000e-04
+Epoch 13/30
+125/125 [==============================] - 76s 603ms/step - loss: 1.6374 - accuracy: 0.2946 - precision: 0.0000e+00 - recall: 0.0000e+00 - auc: 0.5987 - f1_score: 0.5987 - val_loss: 1.6019 - val_accuracy: 0.3576 - val_precision: 0.0000e+00 - val_recall: 0.0000e+00 - val_auc: 0.7245 - val_f1_score: 0.7245 - lr: 1.0000e-04
+Epoch 14/30
+ 42/125 [=========>....................] - ETA: 43s - loss: 1.6406 - accuracy: 0.2902 - precision: 0.0000e+00 - recall: 0.0000e+00 - auc: 0.5903 - f1_score: 0.5903
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
