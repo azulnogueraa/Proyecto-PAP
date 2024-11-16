@@ -1,7 +1,0 @@
-Found 7378 images belonging to 6 classes.
-Found 1847 images belonging to 6 classes.
-Found 2309 images belonging to 6 classes.
- 20%|██        | 1/5 [11:27<45:50, 687.71s/epoch, loss=2.58, accuracy=0.229, val_loss=1.99e+4, val_accuracy=0.0801, lr=0.0005]
- 79%|███████▉  | 182/231 [08:03<02:20, 2.86s/batch, loss=2, accuracy=0.252]    
-
-Epoch 1: val_loss improved from inf to 19859.26172, saving model to checkpoints/best_weights.h5

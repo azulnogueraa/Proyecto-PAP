@@ -1,1 +1,0 @@
-{"graph":{"_type":"graph-file","sha256":"f5fbd05b79e469340cb2bb6898c4adb2717e25eda1bf689dcf797f9fbcc141f7","size":1026,"path":"media/graph/graph_summary_f5fbd05b79e469340cb2.graph.json"},"_wandb":{"runtime":57},"_timestamp":1.728523599168642e+09,"_runtime":57.662597,"_step":0,"test_loss":1.4026716947555542,"test_accuracy":0.5383282899856567}

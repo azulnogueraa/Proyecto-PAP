@@ -1,8 +1,0 @@
-{"time":"2024-10-07T16:46:07.403568-03:00","level":"INFO","msg":"using version","core version":"0.18.3"}
-{"time":"2024-10-07T16:46:07.403615-03:00","level":"INFO","msg":"created symlink","path":"/Users/achula/achula/td8/Proyecto-PAP/wandb/run-20241007_164607-vr12kwy3/logs/debug-core.log"}
-{"time":"2024-10-07T16:46:07.4038-03:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
-{"time":"2024-10-07T16:46:07.410702-03:00","level":"INFO","msg":"created new stream","id":"vr12kwy3"}
-{"time":"2024-10-07T16:46:07.410788-03:00","level":"INFO","msg":"stream: started","id":"vr12kwy3"}
-{"time":"2024-10-07T16:46:07.410802-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"vr12kwy3"}}
-{"time":"2024-10-07T16:46:07.410809-03:00","level":"INFO","msg":"sender: started","stream_id":{"value":"vr12kwy3"}}
-{"time":"2024-10-07T16:46:07.410857-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"vr12kwy3"}}

@@ -1,5 +1,0 @@
-Found 4800 images belonging to 6 classes.
-Found 1200 images belonging to 6 classes.
-Found 1800 images belonging to 6 classes.
-  0%|          | 0/20 [00:00<?, ?epoch/s]
-  3%|▎         | 5.00/150 [00:18<07:53, 3.27s/batch, loss=3.98, accuracy=0.175]

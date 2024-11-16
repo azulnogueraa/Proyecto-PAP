@@ -1,4 +1,0 @@
-Found 8097 images belonging to 6 classes.
-Found 1847 images belonging to 6 classes.
-Found 2309 images belonging to 6 classes.
-[34m[1mwandb[0m: [33mWARNING[0m Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.
