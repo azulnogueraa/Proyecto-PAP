@@ -1,142 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Tabla de Clasificación</title>
-<style>
-    body {
-        font-family: Cambria, "Cambria Math", Charter, Times New Roman, Times, serif;
-        color: #1b1b1b;
-        background-color: #fff;
-    }
-    table.content {
-        width: 100%;
-        border-collapse: collapse;
-        border: solid thin;
-        border-left-style: hidden;
-        border-right-style: hidden;
-    }
-    th, td {
-        text-align: center;
-        border-bottom: solid thin;
-        border-top: solid thin;
-    }
-    th {
-        background-color: #f8f8f8;
-    }
-    .font-sm {
-        font-size: 13.1208997188pt;
-    }
-    *, *:before, *:after {
-        box-sizing: border-box;
-        font-size-adjust: inherit;
-    }
-</style>
+    <meta charset="UTF-8">
+    <title>Tabla de Clasificación</title>
+    <style>
+        body {
+            font-family: Cambria, "Cambria Math", Charter, Times New Roman, Times, serif;
+            color: #1b1b1b;
+            background-color: #fff;
+        }
+
+        table.content {
+            width: 100%;
+            border-collapse: collapse;
+            border: solid thin;
+            border-left-style: hidden;
+            border-right-style: hidden;
+        }
+
+        th,
+        td {
+            text-align: center;
+            border-bottom: solid thin;
+            border-top: solid thin;
+        }
+
+        th {
+            background-color: #f8f8f8;
+        }
+
+        .font-sm {
+            font-size: 13.1208997188pt;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+            font-size-adjust: inherit;
+        }
+    </style>
 </head>
+
 <body>
-<table class="content" frame="hsides" rules="groups">
-    <thead><tr>
-        <th>Clases</th>
-        <th>NILM</th>
-        <th>HSIL</th>
-        <th>LSIL</th>
-        <th>ASC-H</th>
-        <th>ASC-US</th>
-        <th>SCC</th>
-        <th>Total</th>
-    </tr></thead>
-    <tbody>
-    <tr>
-        <td>Train</td>
-        <td>4745</td>
-        <td>1192</td>
-        <td>952</td>
-        <td>647</td>
-        <td>424</td>
-        <td>112</td>
-        <td>8072</td>
-    </tr>
-    <tr>
-        <td>Validation</td>
-        <td>1017</td>
-        <td>255</td>
-        <td>204</td>
-        <td>139</td>
-        <td>91</td>
-        <td>24</td>
-        <td>1730</td>
-    </tr>
-    <tr>
-        <td>Test</td>
-        <td>1017</td>
-        <td>256</td>
-        <td>204</td>
-        <td>139</td>
-        <td>91</td>
-        <td>25</td>
-        <td>1732</td>
-    </tr>
-    <tr>
-        <td>Total por clase</td>
-        <td>6779</td>
-        <td>1703</td>
-        <td>1360</td>
-        <td>925</td>
-        <td>606</td>
-        <td>161</td>
-        <td>11534</td>
-    </tr>
-    </tbody>
-</table>
-<!-- Espacio -->
-<br>
-<table class="content" frame="hsides" rules="groups">
-    <thead><tr>
-        <th>Modelos</th>
-        <th>Accuracy</th>
-        <th>Precisión</th>
-        <th>Recall</th>
-        <th>F1-score</th>
-    </tr></thead>
-    <tbody>
-    <tr>
-        <td>Clasificación 2 Clases</td>
-        <td>0.9301</td>
-        <td>0.9046</td>
-        <td>0.9287</td>
-        <td>0.9165</td>
+    <table class="content" frame="hsides" rules="groups">
+        <thead>
+            <tr>
+                <th>Clases</th>
+                <th>NILM</th>
+                <th>HSIL</th>
+                <th>LSIL</th>
+                <th>ASC-H</th>
+                <th>ASC-US</th>
+                <th>SCC</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Train</td>
+                <td>4745</td>
+                <td>1192</td>
+                <td>952</td>
+                <td>647</td>
+                <td>424</td>
+                <td>112</td>
+                <td>8072</td>
+            </tr>
+            <tr>
+                <td>Validation</td>
+                <td>1017</td>
+                <td>255</td>
+                <td>204</td>
+                <td>139</td>
+                <td>91</td>
+                <td>24</td>
+                <td>1730</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>1017</td>
+                <td>256</td>
+                <td>204</td>
+                <td>139</td>
+                <td>91</td>
+                <td>25</td>
+                <td>1732</td>
+            </tr>
+            <tr>
+                <td>Total por clase</td>
+                <td>6779</td>
+                <td>1703</td>
+                <td>1360</td>
+                <td>925</td>
+                <td>606</td>
+                <td>161</td>
+                <td>11534</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Espacio -->
+    <br>
+    <table class="content" frame="hsides" rules="groups">
+        <thead>
+            <tr>
+                <th>Modelos</th>
+                <th>Accuracy</th>
+                <th>Precisión</th>
+                <th>Recall</th>
+                <th>F1-score</th>
+                <th>AUC</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Clasificación 2 Clases</td>
+                <td>0.93</td>
+                <td>0.90</td>
+                <td>0.93</td>
+                <td>0.92</td>
+                <td>0.98</td>
 
-    </tr>
-    <tr>
-        <td>Clasificación 3 Clases</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Clasificación 5 Clases</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Clasificación 6 Clases</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Clasificación Pipeline </td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-
-    </tr>
-    </tbody>
-</table>
+            </tr>
+            <tr>
+                <td>Clasificación 3 Clases</td>
+                <td>0.88</td>
+                <td>0.88</td>
+                <td>0.88</td>
+                <td>0.88</td>
+                <td>0.97</td>
+            </tr>
+            <tr>
+                <td>Clasificación 5 Clases</td>
+                <td>0.83</td>
+                <td>0.83</td>
+                <td>0.83</td>
+                <td>0.83</td>
+                <td>0.97</td>
+            </tr>
+            <tr>
+                <td>Clasificación 6 Clases</td>
+                <td>0.85</td>
+                <td>0.84</td>
+                <td>0.85</td>
+                <td>0.84</td>
+                <td>0.97</td>
+            </tr>
+            <tr>
+                <td>Clasificación Pipeline </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
 </body>
+
 </html>
